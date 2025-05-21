@@ -12,11 +12,23 @@
             "installationPolicy": {
                 "description": "Downloads OptiFine from the official site."
             }
-        },
+        }
+    ],
+    "modrinth":[
         {
-            "url": "https://cdn.modrinth.com/data/65qOM4nb/versions/1m3gvzYh/Nether-API-v1.3.0-mc1.12.2.jar",
+            "addonId": "nether-api",
+            "fileId": "1.3.0",
             "installationPolicy": {
                 "description": "Downloads NetherAPI from Modrinth."
+            }
+        }
+    ],
+    "curse":[
+        {
+            "addonId": 1214906,
+            "fileId": 6459372,
+            "installationPolicy": {
+                "description": "Downloads Clearoom Relauncher Unofficial from Curseforge. Allows to run Java 24"
             }
         }
     ]
